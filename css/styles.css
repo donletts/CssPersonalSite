@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+p {
+    line-height: 2;
+}
+
+div.nav-container {
+    background-color: #40514E;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+div.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+div.middle-container {
+    margin: 100px 0;
+}
+
+div.bottom-container {
+    padding: 50px 0 20px;
+    background-color: #66BFBF;
+    color: #EAF6F6;
+}
+
+.circle-img {
+    border-radius: 50%;
+}
+
+.max-height-img {
+    width: 25%;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.computer-img {
+    float: left;
+    margin-right: 30px;
+}
+
+.web-img {
+    float: right;
+    margin-left: 30px;
+}
+
+.climbing-img {
+    float: left;
+    margin-right: 30px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.contact-message {
+    width: 30%;
+    margin: 40px auto 60px;
+}
+
+.normal-weight {
+    font-weight: normal;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    overflow: auto;
+}
+
+.profile {
+    margin: 100px auto;
+}
+
+/*.contact-me {*/
+/*    width: 50%;*/
+/*    margin: 100px auto;*/
+/*}*/
+
+/************************BUTTON CODE************************/
+
+
+.myButton {
+    background: linear-gradient(to bottom, #66BFBF 5%, #11999E 100%);
+    background-color: #66BFBF;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 5px 15px;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    background-color: #408c99;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
